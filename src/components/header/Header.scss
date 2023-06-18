@@ -1,0 +1,28 @@
+header {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	justify-content: space-between;
+	padding: 40px 12px 6px 12px;
+	box-shadow: 0 1px 20px #e0e0e0;
+	&.profile {
+		padding: 23px 12px 23px 12px;		
+	}
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	&.profile {
+		margin: 0px auto;
+	}
+}
+
+.logo-name {
+	font-size: 30px;
+}
+
+.avatar {
+	margin-bottom: 10px;
+}

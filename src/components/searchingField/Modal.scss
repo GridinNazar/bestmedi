@@ -1,0 +1,94 @@
+.modal {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff9b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	padding-top: 350px;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.5s;
+	z-index: 10;
+}
+
+.modal.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.modal-content {
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #0E676C;
+	color: #fff;
+	// transform: scale(0.5);
+	transition: 0.4s all;
+	width: 80%;
+	height: 160px;
+	font-weight: bold;
+	font-size: large;
+
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+
+	.price {
+		justify-content: space-between;
+		column-gap: 30px;
+		span {
+			display: flex;
+			span {
+				input {
+					all: unset;
+					font-size: medium;
+					background-color: #fff;
+					color: #000;
+					padding-left: 5px;
+					margin-left: 5px;
+					border-radius: 10px;
+					width: 60%;
+				}
+			}
+		}
+	}
+
+	div {
+		display: flex;
+		justify-content: space-between;
+		select {
+			width: 220px;
+			height: 20px;
+			font-size: medium;
+			background-color: #fff;
+			color: #000;
+			text-align: center;
+			border-radius: 10px;
+		}
+	}
+
+}
+
+.modal-content.active {
+	// transform: scale(1);
+}
+
+.searchingButton.modal {
+	all: unset;
+	background-color: #0E676C;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 13px auto;
+	border-radius: 15px;
+	z-index: 11;
+	transition: all 0.4s;
+	&.hidden {
+		opacity: 0;
+		transition: all 0.4s;
+	}
+}

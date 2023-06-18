@@ -1,0 +1,61 @@
+.searchingField {
+	background-color: #0E676C;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-between;
+	.input {
+		all: unset;
+		background-color: #fff;
+		width: 76%;
+		height: 30px;
+		border-radius: 25px;
+		font-size: large;
+		padding-left: 30px;
+	}
+
+	.filters {
+		all: unset;
+		background-color: #fff;
+		height: 30px;
+		width: 15%;
+		border-radius: 25px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		span {
+			margin: 0 auto;
+		}
+	}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.searchingButton {
+	all: unset;
+	background-color: #0E676C;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 13px auto;
+	border-radius: 15px;
+	z-index: 11;
+	transition: all 0.4s;
+	&.hidden {
+		opacity: 0;
+		transition: all 0.4s;
+	}
+}
+
+.search-symbol {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
