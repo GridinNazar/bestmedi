@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bestmedi/static/css/main.268741c9.css",
+    "main.css": "/bestmedi/static/css/main.5a04dcce.css",
     "main.js": "/bestmedi/static/js/main.b67c99a6.js",
     "static/media/logo.svg": "/bestmedi/static/media/logo.88ba594344e710eb0dfd81c786936c87.svg",
     "static/media/klizma.svg": "/bestmedi/static/media/klizma.6c2741337269f79f423a86d9a452ca50.svg",
     "static/media/avatar.png": "/bestmedi/static/media/avatar.585e9c5b40c3c22d2aba.png",
     "index.html": "/bestmedi/index.html",
-    "main.268741c9.css.map": "/bestmedi/static/css/main.268741c9.css.map",
+    "main.5a04dcce.css.map": "/bestmedi/static/css/main.5a04dcce.css.map",
     "main.b67c99a6.js.map": "/bestmedi/static/js/main.b67c99a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.268741c9.css",
+    "static/css/main.5a04dcce.css",
     "static/js/main.b67c99a6.js"
   ]
 }
