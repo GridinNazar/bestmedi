@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const ProfileHeader = () => {
   return (
     <header className="profile">
-      <Link to="/" style={{ all: "unset", margin: '0 auto'}}>
+      <Link to="/bestmedi" style={{ all: "unset", margin: "0 auto" }}>
         <div className="logo profile">
           <img src={logo} height="40" width="40" className="logo-img" />
           <span className="logo-name">BestMedi</span>

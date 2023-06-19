@@ -10,11 +10,11 @@ const Header = () => {
 
 	return (
     <header>
-			<div className="logo">
-				<img src={logo} height="40" width="40" className="logo-img" />
-				<span className="logo-name">BestMedi</span>
-			</div>
-      <Link to="/profile">
+      <div className="logo">
+        <img src={logo} height="40" width="40" className="logo-img" />
+        <span className="logo-name">BestMedi</span>
+      </div>
+      <Link to="/bestmedi/profile">
         <div className="avatar">
           <img src={avatar} height="55px" width="55px" />
         </div>
