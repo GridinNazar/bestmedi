@@ -28,7 +28,11 @@ const SearchingField = ({ found, setFound}) => {
         Найти
       </button>
 
-      <Modal active={modalActive} setActive={setModalActive} searcHandler={searcHandler}>
+      <Modal
+        active={modalActive}
+        setActive={setModalActive}
+        searcHandler={searcHandler}
+      >
         <div className="price">
           <span>Цена</span>
           <span>
@@ -44,9 +48,9 @@ const SearchingField = ({ found, setFound}) => {
           <span>Метро</span>
           <span>
             <select id="metro">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
+              <option>Чернышевская</option>
+              <option>Владимирская</option>
+              <option>Горьковская</option>
             </select>
           </span>
         </div>
